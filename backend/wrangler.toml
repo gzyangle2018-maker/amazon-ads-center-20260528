@@ -1,0 +1,10 @@
+name = "amazon-ads-center-api"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+[env.production]
+route = "api.amazon-ads-center.workers.dev"
+
+[[cors]]
+origins = ["*"]
+methods = ["GET", "PATCH", "OPTIONS"]
